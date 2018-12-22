@@ -8,15 +8,10 @@ namespace Military
 {
     sealed public class Warship : Vehicle, ISwimmable
     {
-        public Warship(double weight, double averageSpeed) : base(weight, averageSpeed)
+        public Warship(double weight, int averageSpeed) : base(weight, averageSpeed)
         {
-            Capacity = 20;
-            FuelConsumption = 70;
-        }
-
-        public void Swim(int distance)
-        {
-
+            Capacity = 50;
+            FuelConsumption = 200;
         }
     }
 }

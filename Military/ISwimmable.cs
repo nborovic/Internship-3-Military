@@ -8,6 +8,6 @@ namespace Military
 {
     interface ISwimmable
     {
-        void Swim(int distance);
+        int Swim(int distance);
     }
 }
