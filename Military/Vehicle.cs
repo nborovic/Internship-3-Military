@@ -20,5 +20,10 @@ namespace Military
             Weight = weight;
             AverageSpeed = averageSpeed;
         }
+
+        public override string ToString()
+        {
+            return $"Id: {Id}\nWeight: {Weight}\nAverage speed: {AverageSpeed}\nFuel consumption: {FuelConsumption}\nCapacity: {Capacity}";
+        }
     }
 }

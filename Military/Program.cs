@@ -10,7 +10,10 @@ namespace Military
     {
         static void Main(string[] args)
         {
-
+            var tankDistance = Functions.TankDistanceInput();
+            var warshipDistance = Functions.WarshipDistanceInput();
+            var amfibiaDistance = Functions.AmfibiaDistanceInput();
+            var numberOfSoldiers = Functions.NumberOfSoldiersInput();
         }
     }
 }
